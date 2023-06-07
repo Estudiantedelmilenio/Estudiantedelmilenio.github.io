@@ -1,0 +1,150 @@
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5px;
+ padding-left: 5%;
+ padding-right: 5%;
+ font-weight: normal;
+ background: #41644A;
+ font-family: "Comic Sans MS", sans-serif;
+ position: fixed;
+ width: 90%;
+ top: 0;
+ text-align: justify;
+ font-size:20px ;
+
+}
+nav li a:hover {
+ background: #4E944F;
+ border-radius: 15px;
+ transition:all 0.5s ease ;
+}
+h1 {
+ color:white;
+ font-size: 25px;
+ font-family: "Comic Sans MS", sans-serif;
+}
+h2 {
+ color: #95CD41;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 35px;
+ text-align: center;
+}
+h3{
+color: #95CD41;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 35px;
+ text-align: center;
+}
+h4{
+color: #95CD41;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 35px;
+ text-align: center;
+}
+h5{
+color: #95CD41;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 35px;
+ text-align: center;
+}
+h6{
+color:#95CD41;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 35px;
+ text-align: center;
+}
+div li {
+ display: inline-block;
+ padding: 0 15px;
+ text-align: justify;
+}
+li {
+ color: white;
+}
+a {
+ color: white;
+ text-decoration: none;
+}
+a:hover {
+ color: white;
+ font-size:25px;
+}
+body {
+ margin: 0;
+ background:#A0D8B3;
+
+}
+p {
+ font-family: "Comic Sans MS", sans-serif;
+ text-align: justify;
+ color: #222222;
+ font-size: 20px;
+ margin: 30px 0 0;
+ display: block;
+ padding: 1px 5px;
+ padding-left: 130px;
+ padding-right: 130px;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+}
+img {
+ margin: 10px auto 10px;
+ display: block;
+ width: 650px;
+ height: 350px;
+}
+div {
+ margin-top: 10px;
+}
+iframe{
+ margin: 10px auto 10px;
+ display: block;
+ width: 650px;
+ height: 350px;
+}
+html{scroll-behavior: smooth;
+}
+form {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+form div {
+margin-bottom: 10px;
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+textarea {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+input[
+type="submit"] {
+background-color:#41644A;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 3px;
+cursor: pointer;
+}
+input[
+type="submit"]:hover {
+background-color: #45a049;
+ }
